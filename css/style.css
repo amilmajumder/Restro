@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= Navbar ==================*/
+.navbar {
+	 padding: 0; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3b3b3b;
+    margin-left: 25px;
+    margin-right: 25px;
+	padding-right: 0;
+	padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #3b3b3b;
+}
+
+/* ================= banner ==================*/
+
+#banner{
+    position: relative;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #f34949;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 63, 63, 0.6);
+}
+.banner-text{
+    position: relative;
+    z-index: 9;
+}
+.banner-text h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.banner-text p{
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.banner-text p::after{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: -100px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+}
+.banner-text p::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    right: -100px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+}
+
+/* ================= About ==================*/
+#menu{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#menu img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu-main h3{
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    float: left;
+    position: relative;
+}
+.menu-main h3::after{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 190px;
+    width: 210px;
+    height: 1px;
+    background: #e3e1e1;
+}
+.menu-main span{
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    margin-left: 150px;
+    float: right;
+}
+.menu-main p{
+    display: inline-block;
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #b7b7b7;
+}
+.main{
+    padding-top: 38px;
+}
+.abt-btn{
+    padding-top: 92px;
+}
+.abt-btn a{
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d7d5d5;
+    padding: 10px 15px;
+    border: 1px solid #d7d5d5;
+    position: relative;
+    transition: .3s;
+}
+.abt-btn a::after{
+    position: absolute;
+    content: '';
+    top: 11px;
+    right: 35px;
+    width: 1px;
+    height: 15px;
+    background: #d7d5d5;
+}
+.abt-btn a i{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.abt-btn a:hover{
+    color: #fff;
+    background: #f34949;
+}
+
+/* ================= Features ==================*/
+
+#feature{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fea-main h2{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3b3b3b;
+    text-transform: uppercase;
+}
+.fea-main h2::after{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 220px;
+    width: 150px;
+    height: 1px;
+    background: #d7d5d5;
+}
+.fea-item{
+    position: relative;
+    width: 230px;
+    margin-top: 80px;
+}
+.fea-txt h4{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #3b3b3b;
+    padding-top: 30px;
+    display: inline-block;
+}
+.fea-txt span{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #3b3b3b;
+    float: right;
+    padding-top: 30px;
+}
+.fea-icon i{
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+.f-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 63, 63, 0.8);
+    opacity: 0;
+    transition: .4s;
+}
+.f-overlay span{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #f34949;
+    background: #f34949;
+    padding: 15px 10px;
+}
+.fea-item:hover .f-overlay{
+    opacity: 1;
+}
+
+/* ================= gallery ==================*/
+
+#gallery{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gal-main h2{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3b3b3b;
+    text-transform: uppercase;
+}
+
+.gal-main h2::after{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 180px;
+    width: 150px;
+    height: 1px;
+    background: #d7d5d5;
+}
+.gal-1{
+    position: relative;
+    margin-top: 80px;
+    float: left;
+}
+.g-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 63, 63, 0.8);
+    opacity: 0;
+    transition: .4s;
+}
+
+.g-overlay .fa{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff;
+}
+.gal-1:hover .g-overlay{
+    opacity: 1;
+}
+.gal-2{
+    padding-top: 80px;
+}
+.part-1{
+    position: relative;
+    float: left;
+}
+.part-1:hover .g-overlay{
+    opacity: 1;
+}
+
+/* ================= footer ==================*/
+#footer{
+    background: #3b3b3b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-item ul li p{
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ebebeb;
+}
